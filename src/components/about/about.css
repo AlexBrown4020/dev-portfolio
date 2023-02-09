@@ -12,13 +12,13 @@ p {
 
 .icon.active{
     opacity: 1;
-  }
+}
 
 .about-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
+    padding: 2%;
     border-bottom: 8px solid rgb(65, 64, 64);
     justify-content: center;
 }
@@ -27,8 +27,8 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .about-structure-inline {
@@ -51,6 +51,7 @@ p {
     padding-left: 5%;
     padding-right: 5%;
     height: fit-content;
+    box-shadow: 1px 1px 1px rgb(37, 37, 37);
 }
 
 .project-container {
@@ -113,6 +114,9 @@ p {
     #language-window {
         width: max-content;
     }
+    .lan {
+        height: 70px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -120,7 +124,7 @@ p {
         width: 75%;
     }
     .about-structure {
-        justify-content: space-evenly;
+        justify-content: space-evenly
     }
     .about-structure-inline {
         justify-content: space-between;
@@ -134,5 +138,8 @@ p {
         flex-wrap: wrap;
         justify-content: space-evenly;
         flex-direction: row;
+    }
+    .lan {
+        height: 50px;
     }
 }

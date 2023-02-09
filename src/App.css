@@ -20,14 +20,6 @@ body {
   max-width: 100%;
 }
 
-#portfolio {
-  border-bottom: 8px solid rgb(65, 64, 64);
-}
-
-#portfolio-img {
-  max-width: 100%;
-}
-
 @media screen and (min-width: 601px){
   #banner-img {
     margin-top: 5%;

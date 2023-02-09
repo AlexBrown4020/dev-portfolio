@@ -1,0 +1,138 @@
+h2 {
+    color: rgb(232, 232, 232);
+}
+p {
+    color: rgb(232, 232, 232);
+}
+
+.icon {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.icon.active{
+    opacity: 1;
+  }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    border-bottom: 8px solid rgb(65, 64, 64);
+    justify-content: center;
+}
+
+.about-structure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-structure-inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.language-window {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    color: white;
+    background-color:rgb(65, 64, 64);
+    padding-left: 5%;
+    padding-right: 5%;
+    height: fit-content;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lan-button {
+    background-color:#313131;
+    border: none;
+    padding: 5px;
+}
+
+.lan-button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    float: right;
+    border-bottom: 1px gray solid;
+}
+
+.title-container {
+    float: right;
+    padding: 2px;
+}
+
+.row-proj {
+    display: flex;
+    align-items: center;
+}
+
+.language-title {
+    margin-right: 8px;
+    flex-grow: 1;
+}
+
+
+
+@media screen and (min-width: 601px){
+    .about-structure {
+        justify-content: space-evenly;
+        width: 70%;
+    }
+    .about-structure-inline {
+        justify-content: center;
+        width: 20%;
+    }
+    #about-inline-title {
+        margin-left: 90%;
+        margin-right: 90%;
+    }
+    .language-project {
+        width: max-content;
+        padding: 8px;
+    }
+    #language-window {
+        width: max-content;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .language-window {
+        width: 75%;
+    }
+    .about-structure {
+        justify-content: space-evenly;
+    }
+    .about-structure-inline {
+        justify-content: space-between;
+    }
+    #about-inline-title {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+}

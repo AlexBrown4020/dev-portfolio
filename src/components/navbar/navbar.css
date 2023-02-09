@@ -1,0 +1,33 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #393939;
+    padding: 1%;
+    opacity: 95%;
+}
+
+a {
+    color: rgb(232, 232, 232);
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .2s;
+}
+
+a:hover {
+    border-bottom: 2px solid rgb(232, 232, 232);
+}
+
+@media screen and (min-width: 801px){
+
+}
+
+@media screen and (max-width: 800px){
+    #navbar {
+        margin-bottom: 5%;
+        max-height: 4%;
+    }
+}

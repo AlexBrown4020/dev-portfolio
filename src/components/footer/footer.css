@@ -13,7 +13,7 @@
     padding: 5px;
   }
   
-  #footer-title {
+  .footer-title {
     color: rgb(232, 232, 232);
     font-size: 14px;
     border-bottom: 1px white solid;
@@ -22,3 +22,26 @@
   .footer-p-content {
     color: rgb(232, 232, 232);
   }
+
+  #social-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact-image {
+    width: 50px;
+    border-radius: 11px;
+    margin-right: 5px;
+  }
+
+@media screen and (max-width: 600px) {
+  #footer {
+    flex-direction: column;
+  }
+  #social-container {
+    align-items: center;
+  }
+  .contact-image {
+    width: 40px;
+  }
+}

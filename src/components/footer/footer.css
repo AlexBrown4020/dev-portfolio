@@ -25,6 +25,12 @@
     font-size: 14px;
     border-bottom: 1px white solid;
   }
+
+  .footer-social-title {
+    color: rgb(232, 232, 232);
+    font-size: 14px;
+    border-bottom: 1px white solid;
+  }
   
   .footer-p-content {
     color: rgb(232, 232, 232);
@@ -33,7 +39,12 @@
 
   #social-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px white solid;
+    padding-top: 10px;
+    width: 100%;
   }
 
   .contact-image {

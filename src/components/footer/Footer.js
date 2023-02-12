@@ -22,15 +22,17 @@ function Footer() {
                 </section>
             </div>
                 <div id='social-container'>
-                    <a href="https://www.instagram.com/adventurers_hoard/" className="contact-image">
-                        <img alt='instagram' class="contact-image" src="https://iili.io/HENaUmB.png"/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/alex-brown-2a6b7820a/" className="contact-image">
-                        <img alt='linkedin' class="contact-image" src="https://iili.io/HENa85Q.png"/>
-                    </a>
-                    <a href="https://github.com/AlexBrown4020" className="contact-image">
-                        <img alt='github' class="contact-image" src="https://iili.io/HENaO0b.png"/>
-                    </a>
+                    <div id='social-link-container'>
+                        <a href="https://www.instagram.com/adventurers_hoard/" className="contact-image">
+                            <img alt='instagram' class="contact-image" src="https://iili.io/HENaUmB.png"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alex-brown-2a6b7820a/" className="contact-image">
+                            <img alt='linkedin' class="contact-image" src="https://iili.io/HENa85Q.png"/>
+                        </a>
+                        <a href="https://github.com/AlexBrown4020" className="contact-image">
+                            <img alt='github' class="contact-image" src="https://iili.io/HENaO0b.png"/>
+                        </a>
+                    </div>
                 </div>
         </div>
     )

@@ -3,13 +3,13 @@ import './footer.css';
 function Footer() {
     return (
         <div id='footer'>
-                <section>            
-                    <h6 className='footer-title'>About</h6>
-                    <p className='footer-p-content'>Osaka based freelance developer</p>
-                    <p className='footer-p-content'>3D Modeler / Designer (Blender)</p>
-                    <p className='footer-p-content'>SLA/FDM Printing Services</p>
-                    <p className='footer-p-content'>Owner of Adventurer's Hoard</p>
-                </section>
+            <section className='footer-info'>            
+                <h6 className='footer-title'>About</h6>
+                <p className='footer-p-content'>Osaka based freelance developer,</p>
+                <p className='footer-p-content'>3D Modeler / Designer (Blender),</p>
+                <p className='footer-p-content'>SLA/FDM Printing Services,</p>
+                <p className='footer-p-content'>Owner of Adventurer's Hoard</p>
+            </section>
             <section className='footer-info'>
                 <h6 className='footer-title'>Contact</h6>
                 <p className='footer-p-content'><strong>Developer:</strong> Alexander Brown</p>

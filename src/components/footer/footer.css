@@ -12,7 +12,8 @@
   }
 
   .footer-info {
-    padding: 4px;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 
   #footer-info-container {
@@ -43,7 +44,7 @@
     justify-content: space-evenly;
     align-items: center;
     border-top: 1px white solid;
-    padding-top: 10px;
+    padding-top: 5px;
     width: 100%;
   }
 
@@ -52,6 +53,7 @@
     border-radius: 11px;
     margin-right: 5px;
     filter: brightness(0) invert(1);
+    padding: 10px;
   }
 
 @media screen and (max-width: 600px) {

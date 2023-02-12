@@ -29,9 +29,10 @@
   }
 
   .contact-image {
-    width: 50px;
+    width: 40px;
     border-radius: 11px;
     margin-right: 5px;
+    filter: brightness(0) invert(1);
   }
 
 @media screen and (max-width: 600px) {

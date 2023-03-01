@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.clients-project-container:hover {
+    opacity: 70%;
+}
+
 .client-project-title {
     color: white;
     font-size: 24px;

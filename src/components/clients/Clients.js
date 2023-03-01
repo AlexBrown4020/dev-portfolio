@@ -11,7 +11,7 @@ function Clients() {
                 </a>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default Clients;

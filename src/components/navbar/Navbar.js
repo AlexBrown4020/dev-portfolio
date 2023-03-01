@@ -20,6 +20,6 @@ function Navbar() {
             </a>
       </div>
     );
-  }
+  };
   
-  export default Navbar;
+export default Navbar;

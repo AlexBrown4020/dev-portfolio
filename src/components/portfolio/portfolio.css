@@ -43,15 +43,16 @@
         padding-top:30px;
         padding-bottom: 20px;
     }
-
     .project-image {
         width: 40px;
         height: 40px;
     }
-    .projects {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+}
+
+@media screen and (max-width: 890px) {
+    .project-image {
+        width: 40px;
+        height: 40px;
     }
 }
 

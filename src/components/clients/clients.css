@@ -5,6 +5,8 @@
     flex-direction: column;
     align-items: center;
     margin: 5%;
+    background-color: rgb(91, 91, 91);
+    border-radius: 10px;
 }
 
 #clients-title {
@@ -33,4 +35,23 @@
     color: white;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    #clients-title {
+        font-size:22px;
+    }
+    .client-project-title {
+        font-size: 18px;
+    }
+    .clients-logo {
+        height: 80px;
+        width: 80px;
+    }
 }

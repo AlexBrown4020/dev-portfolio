@@ -2,7 +2,7 @@
 Welcome! This is the repository for Alex Brown's developer portfolio. It contains information about my web developer experience and 3D design/printing experience; including links to some of my projects and products.
 You can find the portfolio [here](https://alexbrown-portfolio.netlify.app/)
 
-##Tech Stack:
+## Tech Stack:
 ### Languages:
 - JavaScript
 ###Libraries:

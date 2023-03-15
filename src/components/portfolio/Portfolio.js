@@ -17,7 +17,7 @@ function Portfolio () {
                     <p className='app-name'>Life in Balance</p>
                 </div>
                 <div class="projects">
-                    <a href="https://gilded-sopapillas-cccb3e.netlify.app/" class="project-image">
+                    <a href="https://cosplay-radar.netlify.app/" class="project-image">
                         <img alt='Cosplay Radar' style={{'background-color': 'white'}} class="project-image" src="https://cdn-icons-png.flaticon.com/512/2261/2261175.png"/>
                     </a>
                     <p className='app-name'>Cosplay Radar</p>

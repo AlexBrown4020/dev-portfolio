@@ -11,7 +11,7 @@ function Portfolio () {
                     <p className='app-name'>Runtomo</p>
                 </div>
                 <div class="projects">
-                    <a href="https://dapper-lokum-183c52.netlify.app/" class="project-image">
+                    <a href="https://life-in-balance.netlify.app/" class="project-image">
                         <img alt='Life in Balance' class="project-image" src="https://iili.io/s8B7O7.jpg"/>
                     </a>
                     <p className='app-name'>Life in Balance</p>

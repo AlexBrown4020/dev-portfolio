@@ -5,6 +5,8 @@ You can find the portfolio [here](https://alexbrown-portfolio.netlify.app/)
 ## Tech Stack:
 ### Languages:
 - JavaScript
+- HTML
+- CSS
 ### Libraries:
 - ReactJS
 - MUI

@@ -5,10 +5,10 @@ You can find the portfolio [here](https://alexbrown-portfolio.netlify.app/)
 ## Tech Stack:
 ### Languages:
 - JavaScript
-###Libraries:
+### Libraries:
 - ReactJS
 - MUI
-###Other:
+### Other:
 - Netlify
 - Figma
 

@@ -178,6 +178,7 @@ function About() {
                     <></>
                 }
             </div>
+            <section id='nav-to-portfolio'></section>
         </div>
     );
 };

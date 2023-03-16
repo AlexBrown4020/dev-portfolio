@@ -13,16 +13,7 @@ function Footer() {
                 <section className='footer-info'>
                     <h6 className='footer-title'>Contact</h6>
                     <p className='footer-p-content'><strong>Developer:</strong> Alexander Brown</p>
-                    <p className='footer-p-content'><strong>Email:</strong> balex3497@gmail.com</p>
-                </section>
-                <section className='footer-info'>
-                    <h6 className='footer-title'>Information</h6>
-                    <p className='footer-p-content'>Updated: March 15th 2023</p>
-                    <p className='footer-p-content'>Copyright © 2023, All Rights Reserved.</p>
-                </section>
-            </div>
-            <div id='social-container'>
-                <div id='social-link-container'>
+                    <div id='social-link-container'>
                     <a href="https://www.instagram.com/adventurers_hoard/" className="contact-image">
                         <img alt='instagram' class="contact-image" src="https://iili.io/HENaUmB.png"/>
                     </a>
@@ -32,7 +23,13 @@ function Footer() {
                     <a href="https://github.com/AlexBrown4020" className="contact-image">
                         <img alt='github' class="contact-image" src="https://iili.io/HENaO0b.png"/>
                     </a>
-                </div>
+                    </div>
+                </section>
+                <section className='footer-info'>
+                    <h6 className='footer-title'>Information</h6>
+                    <p className='footer-p-content'>Updated: March 15th 2023</p>
+                    <p className='footer-p-content'>Copyright © 2023, All Rights Reserved.</p>
+                </section>
             </div>
         </div>
     );

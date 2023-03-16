@@ -104,16 +104,19 @@ function About() {
                     <div className="icon top-left"> 
                         <button className='lan-button' value={javascript} ref={ref} onClick={()=> popUp(javascript)}>
                             <img className='lan' alt='JavaScript' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                            <h4>JavaScript</h4>
                         </button>
                     </div>
                     <div className="icon top">
                         <button className='lan-button' value={node} ref={ref} onClick={()=> popUp(node)}>
                             <img className='lan' alt='node' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                            <h4>NodeJS</h4>
                         </button>
                     </div>
                     <div className="icon top-right">     
                         <button className='lan-button' value={react} ref={ref} onClick={()=> popUp(react)}>
                             <img className='lan' alt='react' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                            <h4>ReactJS</h4>
                         </button>
                     </div>
                 </div>
@@ -121,12 +124,14 @@ function About() {
                     <div className="icon right">
                         <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(html)}>
                             <img className='lan' alt='HTML5' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                            <h4>HTML</h4>
                         </button>
                     </div>
                     <h2 id='about-inline-title'>Languages</h2>
                     <div className='icon left'>  
                         <button className='lan-button' value={psql} ref={ref} onClick={()=> popUp(psql)}>
                             <img className='lan' height='70px' alt='elephant' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                            <h4>PostgreSQL</h4>
                         </button>
                     </div>
                 </div>
@@ -134,16 +139,19 @@ function About() {
                     <div className='icon bottom-left'> 
                         <button className='lan-button' value={css} ref={ref} onClick={()=> popUp(css)}>
                             <img className='lan' alt='CSS3' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                            <h4>CSS</h4>
                         </button>   
                     </div>
                     <div className='icon bottom'>     
                         <button className='lan-button' value={github} ref={ref} onClick={()=> popUp(github)}>
                             <img className='lan' alt='github' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                            <h4>Github</h4>
                         </button>
                     </div>
                     <div className='icon bottom-right'>
                         <button className='lan-button' value={figma} ref={ref} onClick={()=> popUp(figma)}>
                             <img className='lan' alt='Figma' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                            <h4>Figma</h4>
                         </button>
                     </div>
                 </div>

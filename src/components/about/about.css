@@ -60,7 +60,6 @@ p {
     height: fit-content;
     box-shadow: 1px 1px 1px rgb(37, 37, 37);
     padding: 50px;
-    border: 5px ridge gray;
     border-radius: 5px;
 }
 

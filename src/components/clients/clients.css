@@ -36,10 +36,7 @@
 .client-name {
     text-align: right;
     margin-right: 3%;
-}
-
-.client-logo:hover {
-    opacity:70%;
+    opacity: 75%;
 }
 
 .client-project-title {
@@ -48,10 +45,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.link-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.client-project-container {
+    border-top: 1px white solid;
+    width: 100%;
+}
+
+.client-project-container:hover {
+    opacity: 75%;
+    cursor: pointer;
+    background-color: rgb(62, 62, 62);
 }
 
 @media screen and (max-width: 600px) {

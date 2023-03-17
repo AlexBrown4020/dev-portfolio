@@ -9,7 +9,7 @@
     opacity: 95%;
 }
 
-a {
+.navLink {
     color: rgb(232, 232, 232);
     text-decoration: none;
     font-size: 20px;
@@ -18,7 +18,7 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
-a:hover {
+.navLink:hover {
     border-bottom: 2px solid rgb(232, 232, 232);
 }
 

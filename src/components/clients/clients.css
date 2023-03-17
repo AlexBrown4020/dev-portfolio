@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&display=swap');
 
 #clients-container {
     display: flex;
@@ -13,16 +14,24 @@
 #clients-title {
     color: white;
     font-size: 28px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    font-family: 'Noto Sans Lepcha', sans-serif;
 }
 
 .project-title {
     margin-left: 1%;
     color: white;
-    font-size: 22px;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    font-style: italic;
+}
+
+.project-description {
+    margin-left: 2%;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Noto Sans Lepcha', sans-serif;
 }
 
 .client-logo {
@@ -30,13 +39,22 @@
     border-radius: 75px;
     width: 100px;
     margin-right: 2%;
-    margin-left: 2%;
+}
+
+.project-testimonial {
+    font-size: 16px;
+    font-style: italic;
 }
 
 .client-name {
     text-align: right;
+    font-size: 14px;
     margin-right: 3%;
     opacity: 75%;
+}
+
+.client-link {
+    text-decoration: none;
 }
 
 .client-project-title {
@@ -48,6 +66,7 @@
 .client-project-container {
     border-top: 1px white solid;
     width: 100%;
+    padding: 1%;
 }
 
 .client-project-container:hover {

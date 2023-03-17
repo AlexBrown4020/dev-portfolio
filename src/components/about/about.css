@@ -108,6 +108,10 @@ h4 {
     font-size: 14px;
 }
 
+#about-inline-title {
+    font-size: 32px;
+}
+
 
 @media screen and (min-width: 751px){
     .about-structure {
@@ -165,5 +169,8 @@ h4 {
     .lan {
         height: 60px;
         width: 60px;
+    }
+    #about-inline-title {
+        font-size: 22px;
     }
 }

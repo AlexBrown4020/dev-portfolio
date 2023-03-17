@@ -57,7 +57,7 @@ function About() {
 
     const psql = {
         name: 'PostgreSQL',
-        years: .75,
+        years: 1,
         projects: ['RunTomo']
     };
     const javascript = {
@@ -82,7 +82,7 @@ function About() {
     };
     const node = {
         name: 'nodeJS',
-        years: .75,
+        years: 1,
         projects: ['Life In Balance', 'Cosplay Radar']
     };
     const figma = {
@@ -95,6 +95,16 @@ function About() {
         years: 1,
         projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio'],
     };
+    const mongodb = {
+        name: 'MongoDB',
+        years: 1,
+        projects: ['Life in Balance', 'Sunset City'],
+    };
+    const django = {
+        name: 'Django',
+        years: .5,
+        projects: ['Runtomo']
+    }
 
     return (
         <div id='main-container'>
@@ -120,20 +130,40 @@ function About() {
                         </button>
                     </div>
                 </div>
+
                 <div className='about-structure-inline'>
-                    <div className="icon right">
-                        <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(html)}>
-                            <img className='lan' alt='HTML5' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                            <h4 className='lan-name'>HTML</h4>
-                        </button>
+                    <div className='spread right'>
+                        <div className='icon right'>
+                            <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(django)}>
+                                <img className='lan' id='django' alt='django' height='70px' src="https://cdn.worldvectorlogo.com/logos/django.svg" />
+                                <h4 className='lan-name'>Django</h4>
+                            </button>
+                        </div>
+                        <div className='icon right'>
+                            <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(html)}>
+                                <img className='lan' alt='HTML5' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                <h4 className='lan-name'>HTML</h4>
+                            </button>
+                        </div>
                     </div>
+
                     <h2 id='about-inline-title'>Languages</h2>
-                    <div className='icon left'>  
-                        <button className='lan-button' value={psql} ref={ref} onClick={()=> popUp(psql)}>
-                            <img className='lan' height='70px' alt='elephant' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-                            <h4 className='lan-name'>PostgreSQL</h4>
-                        </button>
+
+                    <div className='spread left'>
+                        <div className='icon left'>  
+                            <button className='lan-button' value={psql} ref={ref} onClick={()=> popUp(psql)}>
+                                <img className='lan' height='70px' alt='elephant' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                                <h4 className='lan-name'>PostgreSQL</h4>
+                            </button>
+                        </div>
+                        <div className='icon right'>
+                            <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(mongodb)}>
+                                <img className='lan' alt='mongoDB' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                                <h4 className='lan-name'>MongoDB</h4>
+                            </button>
+                        </div>
                     </div>
+
                 </div>
                 <div className='about-structure'>
                     <div className='icon bottom-left'> 

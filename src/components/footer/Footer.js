@@ -27,7 +27,7 @@ function Footer() {
                 </section>
                 <section className='footer-info'>
                     <h6 className='footer-title'>Information</h6>
-                    <p className='footer-p-content'>Updated: March 16th 2023</p>
+                    <p className='footer-p-content'>Updated: March 17th 2023</p>
                     <p className='footer-p-content'>Copyright © 2023, All Rights Reserved.</p>
                 </section>
             </div>

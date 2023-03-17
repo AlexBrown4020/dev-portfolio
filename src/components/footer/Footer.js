@@ -6,7 +6,7 @@ function Footer() {
             <div id='footer-info-container'>
                 <section className='footer-info'>            
                     <h6 className='footer-title'>About</h6>
-                    <p className='footer-p-content'>Osaka based freelance developer,</p>
+                    <p className='footer-p-content'>Freelance developer,</p>
                     <p className='footer-p-content'>3D Modeler / Designer (Blender),</p>
                     <p className='footer-p-content'>SLA/FDM Printing Services</p>
                 </section>

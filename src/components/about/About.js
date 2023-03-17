@@ -147,7 +147,7 @@ function About() {
                         </div>
                     </div>
 
-                    <h2 id='about-inline-title'>Languages</h2>
+                    <h2 id='about-inline-title'>Technologies</h2>
 
                     <div className='spread left'>
                         <div className='icon left'>  

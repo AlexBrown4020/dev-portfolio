@@ -63,27 +63,27 @@ function About() {
     const javascript = {
         name: 'JavaScript',
         years: 2,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio']
+        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City']
     };
     const html = {
         name: 'HTML5',
         years: 2,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio']
+        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City']
     };
     const github = {
         name: 'Github',
         years: 1,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Ruby Recipes', 'Timeline']
+        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset City']
     };
     const css = {
         name: 'CSS3',
         years: 2,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Ruby Recipes', 'Timeline']
+        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset city']
     };
     const node = {
         name: 'nodeJS',
         years: 1,
-        projects: ['Life In Balance', 'Cosplay Radar']
+        projects: ['Life In Balance', 'Cosplay Radar', 'Sunset City']
     };
     const figma = {
         name: 'Figma',
@@ -93,7 +93,7 @@ function About() {
     const react = {
         name: 'ReactJS',
         years: 1,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio'],
+        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
     };
     const mongodb = {
         name: 'MongoDB',

@@ -1,0 +1,16 @@
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+#dev-name {
+    color: rgb(93, 180, 239);
+}
+
+.dev-description {
+    color: white;
+}

@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #393939;
+    background-color: #08163c;
+    box-shadow: 2px 2px 6px rgb(19, 19, 19);
     padding: 1%;
     opacity: 95%;
 }
@@ -16,6 +17,7 @@
     border-bottom: 2px solid transparent;
     transition: border-bottom .2s;
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 .navLink:hover {

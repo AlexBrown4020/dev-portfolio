@@ -57,9 +57,9 @@
     padding-right: 5%;
     height: fit-content;
     box-shadow: 1px 1px 1px rgb(37, 37, 37);
-    padding: 50px;
-    border-radius: 5px;
-    width: 60%;
+    padding: 4%;
+    border-radius: 30px;
+    width: 40%;
 }
 
 .row {
@@ -81,7 +81,7 @@
 }
 
 .language-title {
-    font-size: 22px;
+    font-size: 24px;
     margin-right: 8px;
     flex-grow: 1;
     font-family: 'Roboto', sans-serif;
@@ -94,11 +94,11 @@
 }
 
 .language {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .language-project {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 900px) {
@@ -108,7 +108,15 @@
     #about-title {
         font-size:32px;
     }
-    
+    .language-title {
+        font-size: 18px;
+    }
+    .language {
+        font-size: 18px;
+    }
+    .language-project {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -121,5 +129,13 @@
     #about-title {
         font-size:22px;
     }
-    
+    .language-title {
+        font-size: 16px;
+    }
+    .language {
+        font-size: 16px;
+    }
+    .language-project {
+        font-size: 14px;
+    }
 }

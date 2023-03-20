@@ -114,6 +114,12 @@ function About() {
             years: .5,
             projects: ['Runtomo'],
             image: 'https://cdn.worldvectorlogo.com/logos/django.svg'
+        },
+        {
+            name: 'TypeScript',
+            years: .25,
+            projects: ['Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
         }
     ]
 

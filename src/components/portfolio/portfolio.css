@@ -78,10 +78,4 @@
         height: 600px;
         justify-content: space-between;
     }
-    .apps-right {
-        margin-right: 5%;
-    }
-    .apps-left {
-        margin-left: 5%;
-    }
 }

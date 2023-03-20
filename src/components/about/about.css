@@ -30,6 +30,12 @@
     display: flex;
     width: 20%;
     cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.tech-item.active{
+    opacity: 1;
 }
 
 .tech-name {

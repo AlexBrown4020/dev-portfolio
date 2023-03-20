@@ -39,7 +39,7 @@ function About() {
     };
 
     function reveal() {
-    var reveals = document.querySelectorAll(".icon");
+    var reveals = document.querySelectorAll(".tech-item");
     for (var i = 0; i < reveals.length; i++) {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;

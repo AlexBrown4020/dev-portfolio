@@ -5,6 +5,7 @@ import './portfolio.css';
 function Portfolio () {
     return (
         <div id='projects-container'>
+            <h3 id='project-main-title'>Deployed Apps</h3>
             <a className='project-card' href="https://github.com/CCP4-senior">
                 <div className='project-links'>
                     <h5 className='project-title-app'>Runtomo</h5>

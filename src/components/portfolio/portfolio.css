@@ -2,76 +2,84 @@
     width: 100px;
     height: 100px;
     border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
 }
 
 #projects-container {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 100vw;
-    height: 75vh;
 }
 
-.apps-container {
+.project-card {
+    background-color: #d2d2d2;
+    margin: 2%;
+    width: 70vw;
     display: flex;
-    align-items: center;
+    border-radius: 20px;
+    min-height: 24vh;
+    flex-direction: column;
+    padding: 1%;
+    box-shadow: 2px 2px 2px black;
 }
 
-.projects {
+.project-links {
     display: flex;
     flex-direction: column;
+    align-items: left;
+}
+
+.project-title-app {
+    margin: 3%;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
+.project-blurb {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.app-name {
-    text-shadow: -2px 2px 0 #000;
+.project-paragraph {
+    width: 80%;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 900px) {
-    .app-name {
-        font-size: 12px;
-        box-shadow: 2px solid black;
+    .project-card {
+        width: 75vw;
     }
-    #projects-container {
-        height: auto;
-        width: 100%;
-        margin: 0;
-        padding-top:30px;
-        padding-bottom: 20px;
-    }
-    .project-image {
-        width: 50px;
-        height: 50px;
-    }
-    .apps-container {
-        justify-content: space-around;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .app-name {
-        font-size: 10px;
-        box-shadow: 2px solid black;
-    }
-    .project-image {
-        width: 35px;
-        height: 35px;
-    }
-}
-
-@media screen and (min-width: 901px) {
-    .projects {
-        padding: 35px;
-    }
-    .app-name {
+    .project-title-app {
         font-size: 20px;
-        font-weight: 400;
-        align-items: center;
+        color: black;
     }
-    #projects-container {
-        width: 100%;
-        height: 600px;
-        justify-content: space-between;
+    .project-paragraph {
+        font-size: 17px;
+    }
+    .project-image {
+        width: 75px;
+        height: 75px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .project-card {
+        width: 90vw;
+    }
+    .project-title-app {
+        font-size: 16px;
+    }
+    .project-paragraph {
+        font-size: 14px;
+    }
+    .project-image {
+        width: 70px;
+        height: 70px;
+    }
+}
+

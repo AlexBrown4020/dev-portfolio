@@ -2,7 +2,7 @@ import './footer.css';
 
 function Footer() {
     return (
-        <div id='footer'>
+        <footer>
             <div id='footer-info-container'>
                 <section className='footer-info'>            
                     <h6 className='footer-title'>About</h6>
@@ -16,7 +16,7 @@ function Footer() {
                     <p className='footer-p-content'>Copyright © 2023, All Rights Reserved.</p>
                 </section>
             </div>
-        </div>
+        </footer>
     );
 };
 

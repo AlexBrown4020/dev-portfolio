@@ -6,7 +6,7 @@ export default function Banner () {
             <h1 id='dev-name'>Alexander Brown</h1>
             <h2 className='dev-description'>Software Developer, 3D Designer</h2>
             <div id='dev-paragraph-container'>
-                <p id='dev-paragraph'>Fullstack software engineer, focusing on agile development and responsive design. Owner of Adventurer's Hoard, 3D design and printing services. </p>
+                <p id='dev-paragraph'>Fullstack software engineer; focusing on agile development, responsive design and UI/UX. Owner of Adventurer's Hoard; custom 3D design and printing services, worldwide. </p>
             </div>
             <div id='social-link-container'>
                 <a href="https://www.linkedin.com/in/alexander-brown-2a6b7820a/" className="contact-image">

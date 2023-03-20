@@ -3,8 +3,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 #dev-name {
@@ -19,13 +19,14 @@ main {
 }
 
 #dev-paragraph-container {
-    width: 80%;
+    width: 60%;
     text-align: justify;
 }
 
 #dev-paragraph {
     text-align:center;
     font-size: 22px;
+    color: white;
 }
 
 #social-container {

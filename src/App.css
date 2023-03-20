@@ -20,28 +20,3 @@ body {
   font-weight: 600;
   color: white;
 }
-
-
-#banner {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  border-bottom: 8px solid rgb(65, 64, 64);
-}
-
-#banner-img {
-  max-width: 100%;
-}
-
-@media screen and (min-width: 601px){
-  #banner-img {
-    margin-top: 5%;
-  }
-}
-
-@media screen and (max-width: 600px){
-  #banner-img {
-    margin-top: 8%;
-  }
-}

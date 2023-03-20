@@ -9,10 +9,6 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    background-image: url('https://iili.io/H1ZyEX4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 100vw;
     height: 75vh;
 }

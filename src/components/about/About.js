@@ -54,130 +54,84 @@ function About() {
     };
     
     window.addEventListener("scroll", reveal);
-
-    const psql = {
-        name: 'PostgreSQL',
-        years: 1,
-        projects: ['RunTomo']
-    };
-    const javascript = {
-        name: 'JavaScript',
-        years: 2,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City']
-    };
-    const html = {
-        name: 'HTML5',
-        years: 2,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City']
-    };
-    const github = {
-        name: 'Github',
-        years: 1,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset City']
-    };
-    const css = {
-        name: 'CSS3',
-        years: 2,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset city']
-    };
-    const node = {
-        name: 'nodeJS',
-        years: 1,
-        projects: ['Life In Balance', 'Cosplay Radar', 'Sunset City']
-    };
-    const figma = {
-        name: 'Figma',
-        years: .5,
-        projects: ['Portfolio', 'Sunset City']
-    };
-    const react = {
-        name: 'ReactJS',
-        years: 1,
-        projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
-    };
-    const mongodb = {
-        name: 'MongoDB',
-        years: 1,
-        projects: ['Life in Balance', 'Sunset City'],
-    };
-    const django = {
-        name: 'Django',
-        years: .5,
-        projects: ['Runtomo']
-    }
+    const tech = [
+        {
+            name: 'PostgreSQL',
+            years: 1,
+            projects: ['RunTomo'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
+        },
+        {
+            name: 'JavaScript',
+            years: 2,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
+        },
+        {
+            name: 'HTML5',
+            years: 2,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
+        },
+        {
+            name: 'Github',
+            years: 1,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+        },
+        {
+            name: 'CSS3',
+            years: 2,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset city'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
+        },
+        {
+            name: 'nodeJS',
+            years: 1,
+            projects: ['Life In Balance', 'Cosplay Radar', 'Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
+        },
+        {
+            name: 'Figma',
+            years: .5,
+            projects: ['Portfolio', 'Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
+        },
+        {
+            name: 'ReactJS',
+            years: 1,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+        },
+        {
+            name: 'MongoDB',
+            years: 1,
+            projects: ['Life in Balance', 'Sunset City'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
+        },
+        {
+            name: 'Django',
+            years: .5,
+            projects: ['Runtomo'],
+            image: 'https://cdn.worldvectorlogo.com/logos/django.svg'
+        }
+    ]
 
     return (
         <div id='main-container'>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
-            <div className='about-container'>
-                <div className='about-structure'>
-                    <div className="icon top-left"> 
-                        <button className='lan-button' value={javascript} ref={ref} onClick={()=> popUp(javascript)}>
-                            <img className='lan' alt='JavaScript' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                            <h4 className='lan-name'>JavaScript</h4>
-                        </button>
-                    </div>
-                    <div className="icon top">
-                        <button className='lan-button' value={node} ref={ref} onClick={()=> popUp(node)}>
-                            <img className='lan' alt='node' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                            <h4 className='lan-name'>NodeJS</h4>
-                        </button>
-                    </div>
-                    <div className="icon top-right">     
-                        <button className='lan-button' value={react} ref={ref} onClick={()=> popUp(react)}>
-                            <img className='lan' alt='react' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                            <h4 className='lan-name'>ReactJS</h4>
-                        </button>
-                    </div>
-                </div>
+            <div id='tech-container'>
+                {
+                    tech.map((obj) => {
+                        return <div className='tech-item'>
+                                <img className='tech-image' src={obj.image} alt={obj.name} key={obj.name}/>
+                                <h4 className='tech-name'>{obj.name}</h4>
+                            </div>
+                    })
+                }
+            </div>
 
-                <div className='about-structure-inline'>
-                    <div className='spread right'>
-                        <div className='icon right'>
-                            <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(django)}>
-                                <img className='lan' id='django' alt='django' height='70px' src="https://cdn.worldvectorlogo.com/logos/django.svg" />
-                                <h4 className='lan-name'>Django</h4>
-                            </button>
-                        </div>
-                        <div className='icon right'>
-                            <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(html)}>
-                                <img className='lan' alt='HTML5' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                                <h4 className='lan-name'>HTML</h4>
-                            </button>
-                        </div>
-                    </div>
-
-                    <h2 id='about-inline-title'>Technologies</h2>
-
-                    <div className='spread left'>
-                        <div className='icon left'>  
-                            <button className='lan-button' value={psql} ref={ref} onClick={()=> popUp(psql)}>
-                                <img className='lan' height='70px' alt='elephant' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-                                <h4 className='lan-name'>PostgreSQL</h4>
-                            </button>
-                        </div>
-                        <div className='icon right'>
-                            <button className='lan-button' value={html} ref={ref} onClick={()=> popUp(mongodb)}>
-                                <img className='lan' alt='mongoDB' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-                                <h4 className='lan-name'>MongoDB</h4>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-                <div className='about-structure'>
-                    <div className='icon bottom-left'> 
-                        <button className='lan-button' value={css} ref={ref} onClick={()=> popUp(css)}>
-                            <img className='lan' alt='CSS3' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                            <h4 className='lan-name'>CSS</h4>
-                        </button>   
-                    </div>
-                    <div className='icon bottom'>     
-                        <button className='lan-button' value={github} ref={ref} onClick={()=> popUp(github)}>
-                            <img className='lan' alt='github' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                            <h4 className='lan-name'>Github</h4>
-                        </button>
-                    </div>
+{/*
                     <div className='icon bottom-right'>
                         <button className='lan-button' value={figma} ref={ref} onClick={()=> popUp(figma)}>
                             <img className='lan' alt='Figma' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
@@ -216,6 +170,7 @@ function About() {
                     <></>
                 }
             </div>
+             */}
             <section id='nav-to-portfolio'></section>
         </div>
     );

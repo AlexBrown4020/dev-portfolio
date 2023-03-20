@@ -1,12 +1,38 @@
-p {
-    color: rgb(232, 232, 232);
-    font-family: 'Roboto', sans-serif;
-}
-
 #main-container {
+    background-color:rgb(229, 229, 229);
     padding-top: 5%;
     padding-bottom: 5%;
     border-bottom: 8px solid rgb(65, 64, 64);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#tech-container {
+    width: 85%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.tech-item {
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+    display: flex;
+    width: 25%;
+}
+
+.tech-name {
+    font-size: 24px;
+}
+
+.tech-image {
+    width: 60px;
+}
+
+/* p {
+    color: rgb(232, 232, 232);
+    font-family: 'Roboto', sans-serif;
 }
 
 .icon {
@@ -176,4 +202,4 @@ p {
     #about-inline-title {
         font-size: 22px;
     }
-}
+} */

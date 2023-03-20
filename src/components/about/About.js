@@ -168,47 +168,6 @@ function About() {
                         :
                     <></>
                 }
-
-{/*
-                    <div className='icon bottom-right'>
-                        <button className='lan-button' value={figma} ref={ref} onClick={()=> popUp(figma)}>
-                            <img className='lan' alt='Figma' height='70px' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-                            <h4 className='lan-name'>Figma</h4>
-                        </button>
-                    </div>
-                </div>
-                {
-                    show ? <div className='language-window'>
-                        <div className='row'>
-                            <h4 className='language-title'>Technology:</h4>
-                            <p className='language name'>{name}</p>
-                        </div>
-                        <div className='row'>
-                            <h4 className='language-title'>Years Experience:</h4>
-                            <p className='language years'>{years}</p>
-                        </div>
-                        <div className='row-proj'>
-                            <div className='title-container'>
-                                <h4 className='language-title'>Projects:</h4>
-                            </div>
-                            <div className='project-container'>
-                            {
-                                projects.map((str) => {
-                                    const currIndex = projects.indexOf(str)
-                                    if (currIndex + 1 >= projects.length) {
-                                        return <span className='language-project'>{`${str}`} </span>
-                                    }
-                                    return <span className='language-project'>{`${str}, `}</span>
-                                })
-                            }
-                            </div>
-                        </div>
-                    </div>
-                        :
-                    <></>
-                }
-            </div>
-             */}
             <section id='nav-to-portfolio'></section>
         </div>
     );

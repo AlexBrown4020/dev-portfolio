@@ -1,6 +1,7 @@
 body {
   background-color: #1c2743;
   height: 100vh;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #App {

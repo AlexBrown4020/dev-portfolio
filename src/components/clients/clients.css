@@ -66,6 +66,7 @@
 .client-project-container:hover {
     opacity: 75%;
     cursor: pointer;
+    background-color: rgb(210, 210, 210);
 }
 
 @media screen and (max-width: 600px) {

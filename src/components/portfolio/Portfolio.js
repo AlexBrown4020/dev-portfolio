@@ -3,10 +3,10 @@ import './portfolio.css';
 function Portfolio () {
     return (
         <div id='projects-container'>
-            <h3 id='project-main-title'>Deployed Apps</h3>
+            <h3 className='title white'>Deployed Apps</h3>
             <a className='project-card' href="https://github.com/CCP4-senior">
                 <div className='project-links'>
-                    <h5 className='project-title-app'>Runtomo</h5>
+                    <h4 className='project-title-app'>Runtomo</h4>
                 </div>
                 <div className='project-blurb'>
                     <img alt='Runtomo' class="project-image" src="https://avatars.githubusercontent.com/u/107094424?s=400&u=80a395950ed37432c0cc6b468fa27ec0dc5ad5fc&v=4"/>
@@ -18,7 +18,7 @@ function Portfolio () {
             </a>
             <a className='project-card' href="https://cosplay-radar.netlify.app/">
                 <div className='project-links'>
-                    <h5 className='project-title-app'>Cosplay Radar</h5>
+                    <h4 className='project-title-app'>Cosplay Radar</h4>
                 </div>
                 <div className='project-blurb'>
                     <img alt='Cosplay Radar' style={{'background-color': 'white'}} class="project-image" src="https://cdn-icons-png.flaticon.com/512/2261/2261175.png"/>
@@ -31,7 +31,7 @@ function Portfolio () {
             </a>
             <a className='project-card' href="https://alexbrown-3dportfolio.netlify.app/">
                 <div className='project-links'>
-                    <h5 className='project-title-app'>3D Portfolio</h5>
+                    <h4 className='project-title-app'>3D Portfolio</h4>
                 </div>
                 <div className='project-blurb'>
                         <img alt='AdvHoard' style={{'background-color': 'slategray'}}class="project-image" src="https://iili.io/ZoUvBS.png"/>

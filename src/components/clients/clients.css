@@ -1,37 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&display=swap');
-
 #clients-container {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    margin: 3%;
-    background-color: rgb(91, 91, 91);
-    border-radius: 10px;
-    padding: 3%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(229, 229, 229);
+    padding-bottom: 8%;
 }
 
-#clients-title {
-    color: white;
-    font-size: 28px;
-    font-weight: 600;
-    font-family: 'Noto Sans Lepcha', sans-serif;
-}
-
-.project-title {
+.client-title {
     margin-left: 1%;
-    color: white;
+    color: black;
     font-size: 26px;
-    font-weight: 500;
-    font-family: 'Noto Sans Lepcha', sans-serif;
+    font-weight: 500;;
     font-style: italic;
 }
 
-.project-description {
+.client-description {
     margin-left: 2%;
     font-weight: 400;
     font-size: 18px;
-    font-family: 'Noto Sans Lepcha', sans-serif;
+    color: black;
 }
 
 .client-logo {
@@ -41,9 +30,10 @@
     margin-right: 2%;
 }
 
-.project-testimonial {
+.client-testimonial {
     font-size: 16px;
     font-style: italic;
+    color: black;
 }
 
 .client-name {
@@ -54,7 +44,10 @@
 }
 
 .client-link {
+    display: flex;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .client-project-title {
@@ -64,15 +57,15 @@
 }
 
 .client-project-container {
-    border-top: 1px white solid;
-    width: 100%;
-    padding: 1%;
+    width: 75%;
+    border: 3px solid #1c2743;
+    border-radius: 20px;
+    padding: 2%;
 }
 
 .client-project-container:hover {
     opacity: 75%;
     cursor: pointer;
-    background-color: rgb(62, 62, 62);
 }
 
 @media screen and (max-width: 600px) {

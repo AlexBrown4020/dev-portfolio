@@ -40,7 +40,7 @@ function About() {
     };
 
     window.addEventListener("scroll", reveal);
-    
+
     const tech = [
         {
             name: 'PostgreSQL',
@@ -112,7 +112,7 @@ function About() {
 
     return (
         <div id='main-container'>
-            <h2 id='about-title'>Technologies</h2>
+            <h3 className='title navy'>Technologies</h3>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
             <div id='tech-container'>
                 {

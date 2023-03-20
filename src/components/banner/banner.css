@@ -9,13 +9,13 @@ main {
 
 #dev-name {
     color: rgb(93, 180, 239);
-    font-size: 38px;
+    font-size: 44px;
 }
 
 .dev-description {
     color: rgb(233, 233, 233);
     text-align:center;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 #dev-paragraph-container {

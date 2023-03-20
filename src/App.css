@@ -8,6 +8,19 @@ body {
   min-height: 100vh;
 }
 
+.title.navy {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1c2743;
+}
+
+.title.white {
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+}
+
+
 #banner {
   display: flex;
   align-items: center;

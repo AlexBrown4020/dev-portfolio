@@ -1,5 +1,3 @@
-
-
 import './portfolio.css';
 
 function Portfolio () {

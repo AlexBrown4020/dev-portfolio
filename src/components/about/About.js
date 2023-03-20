@@ -39,9 +39,8 @@ function About() {
         }
     };
 
-
-    
     window.addEventListener("scroll", reveal);
+    
     const tech = [
         {
             name: 'PostgreSQL',

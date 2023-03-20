@@ -30,12 +30,6 @@ function Portfolio () {
                     </a>
                     <p className='app-name'>3D Portfolio</p>
                 </div>
-                <div class="projects">
-                    <a href="https://www.etsy.com/uk/shop/AdventurersHoardShop?ref=seller-platform-mcnav" class="project-image">
-                        <img alt='Etsy' class="project-image" src="https://iili.io/H9xHCHN.png"/>
-                    </a>
-                    <p className='app-name'>Etsy Store</p>
-                </div>
             </div>
         </div>      
     );

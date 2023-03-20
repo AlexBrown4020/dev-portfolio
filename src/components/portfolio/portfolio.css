@@ -14,7 +14,8 @@
 }
 
 .project-card {
-    background-color: #d2d2d2;
+    background-color: #28375d;
+    border: 3px white solid;
     margin: 2%;
     width: 70vw;
     display: flex;
@@ -23,6 +24,12 @@
     flex-direction: column;
     padding: 1%;
     box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-card:hover {
+    opacity: 80%;
 }
 
 .project-links {
@@ -36,7 +43,7 @@
     font-size: 26px;
     font-weight: 600;
     font-style: normal;
-    color: black;
+    color: white;
 }
 
 .project-blurb {
@@ -48,6 +55,7 @@
 .project-paragraph {
     width: 80%;
     font-size: 20px;
+    color: white;
 }
 
 @media screen and (max-width: 900px) {

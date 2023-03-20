@@ -124,13 +124,44 @@ function About() {
             <div id='tech-container'>
                 {
                     tech.map((obj) => {
-                        return <div className='tech-item'>
+                        return <div className='tech-item' ref={ref} onClick={() => popUp(obj)}>
                                 <img className='tech-image' src={obj.image} alt={obj.name} key={obj.name}/>
                                 <h4 className='tech-name'>{obj.name}</h4>
                             </div>
                     })
                 }
             </div>
+
+            {
+                    show ? <div className='language-window'>
+                        <div className='row'>
+                            <h4 className='language-title'>Technology:</h4>
+                            <p className='language name'>{name}</p>
+                        </div>
+                        <div className='row'>
+                            <h4 className='language-title'>Years Experience:</h4>
+                            <p className='language years'>{years}</p>
+                        </div>
+                        <div className='row-proj'>
+                            <div className='title-container'>
+                                <h4 className='language-title'>Projects:</h4>
+                            </div>
+                            <div className='project-container'>
+                            {
+                                projects.map((str) => {
+                                    const currIndex = projects.indexOf(str)
+                                    if (currIndex + 1 >= projects.length) {
+                                        return <span className='language-project'>{`${str}`} </span>
+                                    }
+                                    return <span className='language-project'>{`${str}, `}</span>
+                                })
+                            }
+                            </div>
+                        </div>
+                    </div>
+                        :
+                    <></>
+                }
 
 {/*
                     <div className='icon bottom-right'>

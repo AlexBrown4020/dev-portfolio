@@ -29,20 +29,15 @@ main {
     color: white;
 }
 
-#social-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+#social-link-container {
     align-items: center;
-    border-top: 1px white solid;
-    padding-top: 5px;
-    width: 100%;
-  }
+    display: flex;
+    justify-content: center;
+}
 
 .contact-image {
 width: 40px;
 border-radius: 5px;
-margin-right: 5px;
 filter: brightness(0) invert(1);
 margin: 20px;
 }

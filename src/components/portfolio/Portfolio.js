@@ -40,6 +40,7 @@ function Portfolio () {
                         ThreeJS to display the designs in a manipulatable 3D space so you can view the designs from all angles.
                     </p>
                 </div>
+                <div id='client-link'></div>
             </a>
         </div>      
     );

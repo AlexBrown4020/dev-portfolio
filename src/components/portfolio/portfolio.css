@@ -1,6 +1,6 @@
 .title {
     font-size: 36px;
-    color: white;
+    color: #28375d;
 }
 
 .project-image {
@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    background-color: #1c2743;
+    background-color: #e5e5e5;
 }
 
 .project-card {
@@ -63,6 +63,10 @@
     font-size: 20px;
     color: white;
 }
+
+.white {
+    background-color: #E5E5E5
+  }
 
 @media screen and (max-width: 900px) {
     .project-card {

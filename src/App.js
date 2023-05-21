@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import Clients from './components/clients/Clients';
 import Banner from './components/banner/Banner';
+import Careers from './components/careers/Careers';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <About/>
+      <Careers/>
       <Portfolio/>
       <Clients/>
       <Footer/>

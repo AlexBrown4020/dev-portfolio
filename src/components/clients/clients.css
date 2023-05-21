@@ -1,11 +1,15 @@
 #clients-container {
+    background-color: #1c2743;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color:rgb(229, 229, 229);
     padding-bottom: 8%;
+}
+
+.title {
+    color: #E5E5E5;
 }
 
 .client-title {
@@ -52,17 +56,12 @@
     width: 80%;
 }
 
-.client-project-title {
-    color: white;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-}
-
 .client-project-container {
     width: 75%;
-    border: 3px solid #1c2743;
+    border: 3px solid #5370b9;
     border-radius: 20px;
     padding: 2%;
+    background-color: #E5E5E5;;
 }
 
 .client-project-container:hover {

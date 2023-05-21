@@ -112,7 +112,7 @@ function About() {
 
     return (
         <div id='main-container'>
-            <h3 className='title navy'>Technologies</h3>
+            <h3 className='title-tech'>Technologies</h3>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
             <div id='tech-container'>
                 {

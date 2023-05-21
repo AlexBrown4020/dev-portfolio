@@ -10,11 +10,11 @@ body {
 }
 
 .title {
-  font-size: 60px;
+  font-size: 36px;
   font-weight: 600;
 }
 
-.title.text-navy {
+.text-navy {
   color: #1c2743;
 }
 
@@ -70,4 +70,11 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.project-paragraph {
+  width: 80%;
+  font-size: 20px;
+  color: white;
+  padding: 2%;
 }

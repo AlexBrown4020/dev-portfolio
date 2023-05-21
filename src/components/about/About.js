@@ -50,26 +50,26 @@ function About() {
         },
         {
             name: 'JavaScript',
-            years: 2,
-            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
+            years: 2.25,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City', 'Moon Creative Lab'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
         },
         {
             name: 'HTML5',
-            years: 2,
-            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
+            years: 2.25,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City', 'Moon Creative Lab'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
         },
         {
             name: 'Github',
-            years: 1,
+            years: 1.5,
             projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset City'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
         },
         {
             name: 'CSS3',
-            years: 2,
-            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset city'],
+            years: 2.5,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset city', 'Moon Creative Lab'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
         },
         {
@@ -80,14 +80,14 @@ function About() {
         },
         {
             name: 'Figma',
-            years: .5,
-            projects: ['Portfolio', 'Sunset City'],
+            years: .75,
+            projects: ['Portfolio', 'Sunset City', 'Moon Creative Lab'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
         },
         {
             name: 'ReactJS',
-            years: 1,
-            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City'],
+            years: 1.25,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City', 'Moon Creative Lab'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
         },
         {
@@ -104,8 +104,8 @@ function About() {
         },
         {
             name: 'TypeScript',
-            years: .25,
-            projects: ['Sunset City'],
+            years: .75,
+            projects: ['Sunset City', 'Moon Creative Lab'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
         }
     ]

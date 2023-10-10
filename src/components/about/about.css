@@ -36,7 +36,6 @@
     width: 20%;
     cursor: pointer;
     opacity: 0;
-    transition: opacity 1s ease-in-out;
 }
 
 .tech-item.active{
@@ -67,14 +66,14 @@
     padding-right: 5%;
     height: fit-content;
     box-shadow: 1px 1px 1px rgb(37, 37, 37);
-    padding: 4%;
+    padding: 3%;
     border-radius: 30px;
     width: 40%;
 }
 
 .row {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     float: right;
     border-bottom: 1px gray solid;
 }
@@ -87,7 +86,7 @@
 .row-proj {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
 
 .language-title {
@@ -104,11 +103,16 @@
 }
 
 .language {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .language-project {
-    font-size: 22px;
+    font-size: 16px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 900px) {

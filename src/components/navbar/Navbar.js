@@ -15,7 +15,7 @@ function Navbar() {
             <a className='navLink' href='#client-link' sx={{color: 'white', padding: '5px'}} variant='outlined'>
                 Client Projects
             </a>
-            <a className='navLink' href='#footer' sx={{color: 'white', padding: '5px'}} variant='outlined'>
+            <a className='navLink' href='#footer-info-container' sx={{color: 'white', padding: '5px'}} variant='outlined'>
                 Bottom
             </a>
       </div>

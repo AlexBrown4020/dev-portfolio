@@ -4,9 +4,13 @@ export default function Banner () {
     return (
         <main>
             <h1 id='dev-name'>Alexander Brown</h1>
-            <h2 className='dev-description'>Software Developer, 3D Designer</h2>
+            <h2 className='dev-description'>Fullstack Software Developer / 3D Designer</h2>
             <div id='dev-paragraph-container'>
-                <p id='dev-paragraph'>Fullstack software engineer; focusing on agile development, responsive design and UI/UX. Owner of Adventurer's Hoard; custom 3D design and printing services, worldwide. </p>
+                <ul id='dev-paragraph'>
+                    <li className='dev-focus'>Focusing on agile development</li> 
+                    <li className='dev-focus'>Translating prototypes into responsive design</li>
+                    <li className='dev-focus'>Adding value and functionality, with simple implementation</li>
+                </ul>
             </div>
             <div id='social-link-container'>
                 <a href="https://www.linkedin.com/in/alexander-brown-2a6b7820a/" className="contact-image">

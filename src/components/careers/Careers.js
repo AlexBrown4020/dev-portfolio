@@ -15,7 +15,7 @@ function Careers () {
                         pronunciation by using speech assessment, activities, and games.
                     </p>
                 </div>
-                <p className='project-paragraph'>Started: 1st April 2023 - Current</p>
+                <p className='project-paragraph'>1st April 2023 - 1st October 2023</p>
             </a>
             <a className='project-card' href="https://www.mooncreativelab.com/ventures/goril">
                 <div className='project-links'>
@@ -29,8 +29,7 @@ function Careers () {
                     </p>
                 </div>
                 <p className='project-paragraph'>Started: 1st March 2023 - Current</p>
-            </a>
-            
+            </a> 
         </div>
     )
 }

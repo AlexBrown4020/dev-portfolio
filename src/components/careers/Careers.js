@@ -30,6 +30,18 @@ function Careers () {
                 </div>
                 <p className='project-paragraph'>Started: 1st March 2023 - Current</p>
             </a> 
+            <a className='project-card' href="https://discovernikkei.org/en/?gad_source=1&gclid=Cj0KCQiAoKeuBhCoARIsAB4Wxtc4RO8_gsUKKwCNc9uZkEkz4gShhCv7N-y6edfazFPGQ7-_9aQ6jkAaAgEpEALw_wcB">
+                <div className='project-links'>
+                    <h4 className='project-title-app'>Discover Nikkei, Full-stack Developer</h4>
+                </div>
+                <div className='project-blurb'>
+                    <img alt='Runtomo' class="project-image" src="https://scontent-itm1-1.xx.fbcdn.net/v/t39.30808-1/309243054_466796742146594_132188886653923461_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=104&ccb=1-7&_nc_sid=4da83f&_nc_ohc=sdCAXSMyIqoAX98KV8P&_nc_ht=scontent-itm1-1.xx&oh=00_AfDiLS5xUsz6f_I1-hOlRE_UGpXUmEsQdNpU3OLxRkSzCA&oe=65D0D059"/>
+                    <p className='project-paragraph'>
+                        Launched in 2005, Discover Nikkei has been undergoing major changes to its UI/UX, design, and functionality.  I have been contributing by tackling issues, updating documentation, fixing visual bugs and updating legacy architecture.
+                    </p>
+                </div>
+                <p className='project-paragraph'>15th November 2023 - Current</p>
+            </a>
         </div>
     )
 }

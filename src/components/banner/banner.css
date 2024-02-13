@@ -10,23 +10,30 @@ main {
 #dev-name {
     color: rgb(93, 180, 239);
     font-size: 44px;
+    margin: 0px;
 }
 
 .dev-description {
     color: rgb(233, 233, 233);
     text-align:center;
     font-size: 38px;
-}
-
-#dev-paragraph-container {
-    width: 60%;
-    text-align: justify;
+    margin: 0px;
 }
 
 #dev-paragraph {
-    text-align:center;
     font-size: 22px;
     color: white;
+}
+
+#dev-paragraph li {
+    display:grid;
+    padding: 1px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+#dev-paragraph li:nth-child(odd) {
+    color:  rgb(93, 180, 239);
 }
 
 #social-link-container {

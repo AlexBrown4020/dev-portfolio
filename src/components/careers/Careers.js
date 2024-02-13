@@ -17,7 +17,7 @@ function Careers () {
                 </div>
                 <p className='project-paragraph'>1st April 2023 - 1st October 2023</p>
             </a>
-            <a className='project-card' href="https://www.mooncreativelab.com/ventures/goril">
+            <a className='project-card' href="https://www.codechrysalis.io/">
                 <div className='project-links'>
                     <h4 className='project-title-app'>Code Chrysalis, Foundations Instructor</h4>
                 </div>

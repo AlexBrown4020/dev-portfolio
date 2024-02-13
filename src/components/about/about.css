@@ -35,11 +35,6 @@
     display: flex;
     width: 20%;
     cursor: pointer;
-    opacity: 0;
-}
-
-.tech-item.active{
-    opacity: 1;
 }
 
 .tech-name {

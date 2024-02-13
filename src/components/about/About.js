@@ -45,31 +45,31 @@ function About() {
         {
             name: 'PostgreSQL',
             years: 1,
-            projects: ['RunTomo', 'Moon Creative Lab'],
+            projects: ['RunTomo', 'Moon Creative Lab', 'Discover Nikkei'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
         },
         {
             name: 'JavaScript',
-            years: 2.5,
+            years: 3,
             projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City', 'Moon Creative Lab', 'Code Chrysalis'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
         },
         {
             name: 'HTML5',
-            years: 2.5,
-            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City', 'Moon Creative Lab', 'Code Chrysalis'],
+            years: 3,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Sunset City', 'Moon Creative Lab', 'Code Chrysalis', 'Discover Nikkei'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
         },
         {
             name: 'Github',
-            years: 2,
-            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset City', 'Moon Creative Lab'],
+            years: 2.5,
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset City', 'Moon Creative Lab', 'Discover Nikkei'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
         },
         {
             name: 'CSS3',
             years: 2.5,
-            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset city', 'Moon Creative Lab', 'Code Chrysalis'],
+            projects: ['Portfolio', 'Life in Balance', 'Cosplay Radar', '3D Portfolio', 'Runtomo', 'Sunset city', 'Moon Creative Lab', 'Code Chrysalis', 'Discover Nikkei'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
         },
         {
@@ -81,7 +81,7 @@ function About() {
         {
             name: 'Figma',
             years: 1.5,
-            projects: ['Portfolio', 'Sunset City', 'Moon Creative Lab'],
+            projects: ['Portfolio', 'Sunset City', 'Moon Creative Lab', 'Discover Nikkei'],
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
         },
         {
@@ -99,7 +99,7 @@ function About() {
         {
             name: 'Django',
             years: .5,
-            projects: ['Runtomo'],
+            projects: ['Runtomo', 'Discover Nikkei'],
             image: 'https://cdn.worldvectorlogo.com/logos/django.svg'
         },
         {
@@ -118,7 +118,13 @@ function About() {
             name: 'Tailwind',
             years: .5,
             projects: ['Moon Creative Lab'],
-            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg'
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'
+        },
+        {
+            name: 'Python',
+            years: .50,
+            projects: ['Runtomo', 'Discover Nikkei'],
+            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg'
         }
     ]
 

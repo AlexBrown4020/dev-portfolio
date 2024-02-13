@@ -20,15 +20,20 @@ main {
     margin: 0px;
 }
 
-#dev-paragraph-container {
-    width: 60%;
-    text-align: justify;
-}
-
 #dev-paragraph {
-    text-align:center;
     font-size: 22px;
     color: white;
+}
+
+#dev-paragraph li {
+    display:grid;
+    padding: 1px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+#dev-paragraph li:nth-child(odd) {
+    color:  rgb(93, 180, 239);
 }
 
 #social-link-container {

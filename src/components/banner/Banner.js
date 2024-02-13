@@ -7,9 +7,10 @@ export default function Banner () {
             <h2 className='dev-description'>Fullstack Software Developer / 3D Designer</h2>
             <div id='dev-paragraph-container'>
                 <ul id='dev-paragraph'>
-                    <li className='dev-focus'>Focusing on agile development</li> 
-                    <li className='dev-focus'>Translating prototypes into responsive design</li>
-                    <li className='dev-focus'>Adding value and functionality, with simple implementation</li>
+                    <li>Focusing on agile development.</li> 
+                    <li>Translating prototypes into responsive design.</li>
+                    <li>Adding value and functionality with simple implementation.</li>
+                    <li>Nurture growth and improvement.</li>
                 </ul>
             </div>
             <div id='social-link-container'>

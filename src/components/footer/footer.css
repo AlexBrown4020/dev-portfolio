@@ -3,7 +3,6 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    background-color: #1c2743;
   }
 
   .footer-contact {
@@ -24,13 +23,13 @@ footer {
   .footer-title {
     color:white;
     font-size: 14px;
-    border-bottom: 1px#1c2743 solid;
+    border-bottom: 2px white solid;
   }
 
   .footer-social-title {
     color: rgb(232, 232, 232);
     font-size: 14px;
-    border-bottom: 1px #1c2743 solid;
+    border-bottom: 2px white solid;
   }
   
   .footer-p-content {

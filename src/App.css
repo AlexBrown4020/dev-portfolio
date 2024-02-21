@@ -1,5 +1,5 @@
 body {
-  background-color: #1c2743;
+  background-color: #43464e;
   height: 100vh;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .section-container:nth-child(even) .project-card {
-  background-color: #1C2743;
+  background-color: #43464e;
   color:#E5E5E5;
 }
 

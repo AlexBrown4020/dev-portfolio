@@ -15,7 +15,7 @@ function Careers () {
                         pronunciation by using speech assessment, activities, and games.
                     </p>
                 </div>
-                <p className='project-paragraph'>1st April 2023 - 1st October 2023</p>
+                <p>1st April 2023 - 1st October 2023</p>
             </a>
             <a className='project-card' href="https://www.codechrysalis.io/">
                 <div className='project-links'>
@@ -28,7 +28,7 @@ function Careers () {
                         Focusing on modern HTML, CSS and JavaScript.
                     </p>
                 </div>
-                <p className='project-paragraph'>Started: 1st March 2023 - Current</p>
+                <p>Started: 1st March 2023 - Current</p>
             </a> 
             <a className='project-card' href="https://discovernikkei.org/en/?gad_source=1&gclid=Cj0KCQiAoKeuBhCoARIsAB4Wxtc4RO8_gsUKKwCNc9uZkEkz4gShhCv7N-y6edfazFPGQ7-_9aQ6jkAaAgEpEALw_wcB">
                 <div className='project-links'>
@@ -40,7 +40,7 @@ function Careers () {
                         Launched in 2005, Discover Nikkei has been undergoing major changes to its UI/UX, design, and functionality.  I have been contributing by tackling issues, updating documentation, fixing visual bugs and updating legacy architecture.
                     </p>
                 </div>
-                <p className='project-paragraph'>15th November 2023 - Current</p>
+                <p>15th November 2023 - Current</p>
             </a>
         </div>
     )

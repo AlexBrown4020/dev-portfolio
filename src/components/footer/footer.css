@@ -3,7 +3,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    background-color: #E5E5E5;
+    background-color: #1c2743;
   }
 
   .footer-contact {
@@ -22,7 +22,7 @@ footer {
   }
 
   .footer-title {
-    color: black;
+    color:white;
     font-size: 14px;
     border-bottom: 1px#1c2743 solid;
   }
@@ -34,7 +34,7 @@ footer {
   }
   
   .footer-p-content {
-    color: #1c2743;
+    color: white;
     font-size: 12px;
   }
 

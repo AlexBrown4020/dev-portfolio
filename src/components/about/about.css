@@ -28,7 +28,7 @@
 .tech-item {
     margin: 2%;
     border-radius: 10px;
-    border: 3px solid #1c2743;
+    border: 3px solid #43464e;;
     box-shadow: 1px 1px 1px gray;
     align-items: center;
     justify-content: space-around;
@@ -55,7 +55,7 @@
     transform: translate(-50%, -50%);
     flex-direction: column;
     color: white;
-    background-color:#1c2743;
+    background-color:#43464e;
     border: 3px solid white;
     padding-left: 5%;
     padding-right: 5%;
@@ -63,7 +63,7 @@
     box-shadow: 1px 1px 1px rgb(37, 37, 37);
     padding: 3%;
     border-radius: 30px;
-    width: 40%;
+    width: 70%;
 }
 
 .row {

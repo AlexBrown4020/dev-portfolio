@@ -1,11 +1,22 @@
 .project-image-AWS {
-    width: 100px;
-    height: 100px;
-    top: 0px;
-    left: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+#cert-card {
+    position: relative;
+    align-items: center;
+}
+
+#cert-heading {
+
 }
 
 .certification-comment {
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    color: gray;
 }

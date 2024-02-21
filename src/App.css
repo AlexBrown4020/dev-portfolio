@@ -53,6 +53,7 @@ body {
   box-shadow: 2px 2px 2px black;
   cursor: pointer;
   text-decoration: none;
+  position: relative;
 }
 
 .project-image {

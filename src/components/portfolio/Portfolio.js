@@ -35,7 +35,7 @@ function Portfolio () {
                     <h4 className='project-sub-heading'>3D Portfolio</h4>
                 </div>
                 <div className='project-blurb'>
-                        <img alt='AdvHoard' style={{'background-color': 'slategray'}}class="project-image" src="https://iili.io/ZoUvBS.png"/>
+                    <img alt='AdvHoard' style={{'background-color': 'slategray'}}class="project-image" src="https://iili.io/ZoUvBS.png"/>
                     <p className='project-paragraph'>
                         An application to display my 3D creations to potential customers, employers or other hobbyists.  3D Portfolio implements
                         ThreeJS to display the designs in a manipulatable 3D space so you can view the designs from all angles.

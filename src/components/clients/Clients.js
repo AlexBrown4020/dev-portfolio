@@ -22,21 +22,19 @@ const clientData = [
 
 function Clients() {
     return (
-        <section className="section-container" id='clients-container'>
+        <section className="section-container">
             <h3 className='section-heading'>Client Projects</h3>
             {
                 clientData.map(object => {
-                    return  <a className='client-link' href={object.link}>
-                    <div className='client-project-container'>
-                        <h5 className='client-title'>{object.title}</h5>
-                        <p className='client-description'>{object.description}</p>
-                        <p className='client-testimonial'>            
-                            <img  alt='logo' src={object.logo} className='client-logo'/>
-                            {object.testimonial}
-                            <h6 className='client-name'>{object.name}</h6>
-                        </p>
-                    </div>
-                </a>
+                    return  <a className='project-card' href={object.link}>
+                            <h5 className='client-title'>{object.title}</h5>
+                            <p className='client-description'>{object.description}</p>
+                            <p className='client-testimonial'>            
+                                <img  alt='logo' src={object.logo} className='client-logo'/>
+                                    {object.testimonial}
+                                <h6 className='client-name'>{object.name}</h6>
+                            </p>
+                        </a>
                 })
             }
 

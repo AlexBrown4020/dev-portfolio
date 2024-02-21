@@ -1,6 +1,5 @@
 .client-title {
     margin-left: 1%;
-    color: black;
     font-size: 26px;
     font-weight: 500;;
     font-style: italic;
@@ -10,7 +9,6 @@
     margin-left: 2%;
     font-weight: 400;
     font-size: 18px;
-    color: black;
 }
 
 .client-logo {
@@ -23,7 +21,6 @@
 .client-testimonial {
     font-size: 16px;
     font-style: italic;
-    color: black;
 }
 
 .client-name {
@@ -31,29 +28,6 @@
     font-size: 14px;
     margin-right: 3%;
     opacity: 75%;
-}
-
-.client-link {
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    margin: 5%;
-    width: 80%;
-}
-
-.client-project-container {
-    width: 75%;
-    border: 3px solid #5370b9;
-    border-radius: 20px;
-    padding: 2%;
-    background-color: #E5E5E5;;
-}
-
-.client-project-container:hover {
-    opacity: 75%;
-    cursor: pointer;
-    background-color: rgb(210, 210, 210);
 }
 
 @media screen and (max-width: 600px) {

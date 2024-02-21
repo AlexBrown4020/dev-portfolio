@@ -26,14 +26,20 @@ body {
   color: #E5E5E5;
 }
 
-.section-heading {
-  font-size: 36px;
-  font-weight: 600;
-}
 
 .section-container:nth-child(odd) .project-card {
   background-color: #E5E5E5;
   color:#1C2743;
+}
+
+.section-container:nth-child(even) .project-card {
+  background-color: #1C2743;
+  color:#E5E5E5;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .project-card {

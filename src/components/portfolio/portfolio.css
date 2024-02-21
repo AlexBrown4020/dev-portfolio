@@ -10,15 +10,6 @@
     box-shadow: 1px 1px 1px gray;
 }
 
-#projects-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    background-color: #e5e5e5;
-}
-
 .project-card {
     background-color: #28375d;
     border: 3px white solid;

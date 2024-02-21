@@ -2,7 +2,7 @@ import '../../App.css'
 
 function Careers () {
     return (
-        <div className="container">
+        <div className="section-container">
             <h3 className='title text-white'>Careers</h3>
             <a className='project-card' href="https://www.mooncreativelab.com/ventures/goril">
                 <div className='project-links'>

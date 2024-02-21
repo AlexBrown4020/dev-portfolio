@@ -1,8 +1,9 @@
-import '../portfolio/portfolio.css'
+import '../portfolio/portfolio.css';
+import '../../App.css';
 
 function Portfolio () {
     return (
-        <div id='projects-container'>
+        <div className='section-container' id='projects-container'>
             <h3 className='title-projects'>Deployed Apps</h3>
             <a className='project-card' href="https://github.com/CCP4-senior">
                 <div className='project-links'>

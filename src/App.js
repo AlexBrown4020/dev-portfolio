@@ -6,6 +6,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Clients from './components/clients/Clients';
 import Banner from './components/banner/Banner';
 import Careers from './components/careers/Careers';
+import Certification from './components/certification/Certification';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Banner/>
       <About/>
       <Careers/>
+      <Certification/>
       <Portfolio/>
       <Clients/>
       <Footer/>

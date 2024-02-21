@@ -21,7 +21,7 @@ const clientData = [
 
 function Clients() {
     return (
-        <section id='clients-container'>
+        <section className="section-container" id='clients-container'>
             <h3 className='title'>Client Projects</h3>
             {
                 clientData.map(object => {

@@ -6,7 +6,7 @@ function Careers () {
             <h3 className='section-heading'>Careers</h3>
             <a className='project-card' href="https://www.mooncreativelab.com/ventures/goril">
                 <div className='project-links'>
-                    <h4 className='project-title-app'>Moon Creative Lab: Goril, Full-stack Developer</h4>
+                    <h4 className='project-sub-heading'>Moon Creative Lab: Goril, Full-stack Developer</h4>
                 </div>
                 <div className='project-blurb'>
                     <img alt='Runtomo' class="project-image" src="https://moon-website-prod-images.s3.us-west-1.amazonaws.com/image3_e7068f0ba3.jpg"/>
@@ -19,7 +19,7 @@ function Careers () {
             </a>
             <a className='project-card' href="https://www.codechrysalis.io/">
                 <div className='project-links'>
-                    <h4 className='project-title-app'>Code Chrysalis, Foundations Instructor</h4>
+                    <h4 className='project-sub-heading'>Code Chrysalis, Foundations Instructor</h4>
                 </div>
                 <div className='project-blurb'>
                     <img alt='Runtomo' style={{backgroundColor:'white'}} class="project-image" src="https://avatars.githubusercontent.com/u/24461336?s=200&v=4"/>
@@ -32,7 +32,7 @@ function Careers () {
             </a> 
             <a className='project-card' href="https://discovernikkei.org/en/?gad_source=1&gclid=Cj0KCQiAoKeuBhCoARIsAB4Wxtc4RO8_gsUKKwCNc9uZkEkz4gShhCv7N-y6edfazFPGQ7-_9aQ6jkAaAgEpEALw_wcB">
                 <div className='project-links'>
-                    <h4 className='project-title-app'>Discover Nikkei, Full-stack Developer</h4>
+                    <h4 className='project-sub-heading'>Discover Nikkei, Full-stack Developer</h4>
                 </div>
                 <div className='project-blurb'>
                     <img alt='Discover Nikkei' class="project-image" src="https://iili.io/JEmyIQR.jpg"/>

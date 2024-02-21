@@ -1,9 +1,9 @@
-import '../../App.css'
+import '../../App.css';
 
 function Careers () {
     return (
         <div className="section-container">
-            <h3 className='title text-white'>Careers</h3>
+            <h3 className='section-heading'>Careers</h3>
             <a className='project-card' href="https://www.mooncreativelab.com/ventures/goril">
                 <div className='project-links'>
                     <h4 className='project-title-app'>Moon Creative Lab: Goril, Full-stack Developer</h4>

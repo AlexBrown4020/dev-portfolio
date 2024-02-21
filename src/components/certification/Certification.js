@@ -1,9 +1,10 @@
 import "./certification.css";
+import '../../App.css';
 
 export default function Certification () {
     return (
         <section className="section-container">
-            <h3 className='title-projects'>Certification</h3>
+            <h3 className='section-heading'>Certification</h3>
         </section>
     )
 }

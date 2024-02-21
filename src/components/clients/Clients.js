@@ -1,4 +1,5 @@
 import '../clients/clients.css';
+import '../../App.css';
 
 const clientData = [
     {
@@ -22,7 +23,7 @@ const clientData = [
 function Clients() {
     return (
         <section className="section-container" id='clients-container'>
-            <h3 className='title'>Client Projects</h3>
+            <h3 className='section-heading'>Client Projects</h3>
             {
                 clientData.map(object => {
                     return  <a className='client-link' href={object.link}>

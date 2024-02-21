@@ -9,11 +9,6 @@ body {
   min-height: 100vh;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 600;
-}
-
 .text-navy {
   color: #1c2743;
 }
@@ -42,15 +37,28 @@ body {
 
 .section-container {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-bottom: 8%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 8%;
 }
 
 .section-container:nth-child(even) {
   background-color: #E5E5E5;
+}
+
+.section-container:nth-child(even) .section-heading {
+  color: #1C2743;
+}
+
+.section-container:nth-child(odd) .section-heading {
+  color: #E5E5E5;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .project-card {

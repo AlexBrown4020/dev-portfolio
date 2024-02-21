@@ -3,6 +3,8 @@
     height: 100px;
     border-radius: 5px;
     box-shadow: 1px 1px 1px gray;
+    top: 0px;
+    left: 0px;
 }
 
 .project-card:hover {
@@ -23,14 +25,15 @@
 }
 
 .project-blurb {
-    display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
+    margin: 2%;
 }
 
 .project-paragraph {
     width: 80%;
     font-size: 20px;
+    margin: 0px;
 }
 
 @media screen and (max-width: 900px) {

@@ -11,6 +11,16 @@ import Certification from './components/certification/Certification';
 function App() {
   return (
     <div id="App">
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBEPXPYG17"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-BBEPXPYG17');
+        </script>
+      </head>
       <meta property="og:title" content="Title-name"/>
       <meta property="og:image" content="File-path"/>
       <meta property="og:url" content="Canonical-url"/>
